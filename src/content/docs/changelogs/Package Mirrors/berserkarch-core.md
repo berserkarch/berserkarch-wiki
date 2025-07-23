@@ -1,13 +1,13 @@
 ---
-title: Development Changelogs
+title: core
 description: Changes made through-out the project life-cycle related everything.
 ---
 
-This is the changelogs for all development cycles
-
 # Changelog
 
-Generated on 2025-07-23
+Generated from Github repository: [berserkarch/berserk-core-repo](https://github.com/berserkarch/berserk-core-repo)
+
+Generated on: 2025-07-24 00:10:28
 
 ## July 2025
 
@@ -18,7 +18,6 @@ Generated on 2025-07-23
 - Added new configs ([cf61405](https://github.com/berserkarch/berserk-core-repo/commit/cf61405d5e294ba53bf8716bd617cc94e563a421)) - Gaurav Raj
 - Added audit and firewall support ([8ca9652](https://github.com/berserkarch/berserk-core-repo/commit/8ca9652460bf2e6ef6f9b12283336fadad4fcdca)) - Gaurav Raj
 - Added notes qml ([ed354f4](https://github.com/berserkarch/berserk-core-repo/commit/ed354f4c2ff6bc819a0b6db2b3eb933d14fe24c0)) - Gaurav Raj
-- Fixed pacman issue and added images ([77d57e3](https://github.com/berserkarch/berserk-core-repo/commit/77d57e3f464fd80f177b97f1ed56360dbbf17d5f)) - Gaurav Raj
 - Added netinstall in calamares ([ed49721](https://github.com/berserkarch/berserk-core-repo/commit/ed497213acf52605d8b08de8fb6a10879008ed6f)) - Gaurav Raj
 - Added desktop selection entry in calamares ([4a65d4b](https://github.com/berserkarch/berserk-core-repo/commit/4a65d4b3d3de6062491253d290fd9cc846136454)) - Gaurav Raj
 - Added new calamares build ([caeb2b7](https://github.com/berserkarch/berserk-core-repo/commit/caeb2b7e91283f6641727b1c21b6384c762b73cd)) - Gaurav Raj
@@ -38,6 +37,7 @@ Generated on 2025-07-23
 
 ### 🐛 Bug Fixes
 
+- Fixed pacman issue and added images ([77d57e3](https://github.com/berserkarch/berserk-core-repo/commit/77d57e3f464fd80f177b97f1ed56360dbbf17d5f)) - Gaurav Raj
 - Fixed the unencrypted booting error ([211091b](https://github.com/berserkarch/berserk-core-repo/commit/211091b525840b7732a53d95ff700102163cb2ac)) - Gaurav Raj
 - Fixed path issues ([3a39e92](https://github.com/berserkarch/berserk-core-repo/commit/3a39e926604362483915959f18489602aa5f0416)) - Gaurav Raj
 - Fixed the tmux file conflicts ([7ddc66f](https://github.com/berserkarch/berserk-core-repo/commit/7ddc66f5c70ba77a75596365d432123f159849cf)) - Gaurav Raj
@@ -71,7 +71,6 @@ Generated on 2025-07-23
 - Removed redundant commands/scripts ([30a7c8e](https://github.com/berserkarch/berserk-core-repo/commit/30a7c8e805a90ede28584649fdfcc59e2b639e26)) - Gaurav Raj
 - Removed apparmor hooks ([367bca2](https://github.com/berserkarch/berserk-core-repo/commit/367bca278c70896547510643e993b818eb2e57a2)) - Gaurav Raj
 
-
 ## June 2025
 
 ### ✨ Features
@@ -89,6 +88,10 @@ Generated on 2025-07-23
 - Added new default wallpaper ([c493d1f](https://github.com/berserkarch/berserk-core-repo/commit/c493d1f5678f0daecbf8baef67cad18a1ac78788)) - Gaurav Raj
 - Add new file ([9e1515f](https://github.com/berserkarch/berserk-core-repo/commit/9e1515f34f09508caad6fa99272e8129459983bf)) - Gaurav Raj
 
+### 👷 CI/CD
+
+- Configure SAST in `.gitlab-ci.yml`, creating this file if it does not already exist ([97ff346](https://github.com/berserkarch/berserk-core-repo/commit/97ff346c61577b8b9bf53c74507834d59937b02c)) - Gaurav Raj
+
 ### 📦 Dependencies
 
 - Updated color config ([88da7c8](https://github.com/berserkarch/berserk-core-repo/commit/88da7c809ef44d8b9b03f05616e4b93a596a0a37)) - Gaurav Raj
@@ -100,5 +103,4 @@ Generated on 2025-07-23
 - Changed source url ([58c670e](https://github.com/berserkarch/berserk-core-repo/commit/58c670e3a2a29589e560b8b3272700dc51ca6c88)) - Gaurav Raj
 - Changed source url ([75fafdd](https://github.com/berserkarch/berserk-core-repo/commit/75fafdd0af5318aade02bff6c7200f6c2fc23a0b)) - Gaurav Raj
 - Initial Commit ([40aae15](https://github.com/berserkarch/berserk-core-repo/commit/40aae15c24717754d45bb8e7018d4600e97400c8)) - Gaurav Raj
-- Configure SAST in `.gitlab-ci.yml`, creating this file if it does not already exist ([97ff346](https://github.com/berserkarch/berserk-core-repo/commit/97ff346c61577b8b9bf53c74507834d59937b02c)) - Gaurav Raj
 
