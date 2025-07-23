@@ -13,6 +13,14 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/berserkarch/' }],
 			sidebar: [
 				{
+					label: 'Installation',
+					items: [
+						{ label: 'Requirements', slug: 'installation/requirements' },
+						{ label: 'Install on VirtualBox (Guest)', slug: 'installation/virtualbox' },
+						{ label: 'Install the system', slug: 'installation/installation' },
+					],
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
