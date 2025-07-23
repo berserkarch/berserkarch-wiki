@@ -17,7 +17,7 @@ export default defineConfig({
 					items: [
 						{ label: 'Requirements', slug: 'installation/requirements' },
 						{ label: 'Install on VirtualBox (Guest)', slug: 'installation/virtualbox' },
-						{ label: 'Install the system', slug: 'installation/installation' },
+						{ label: 'Installing the system', slug: 'installation/installation' },
 					],
 				},
 				{
