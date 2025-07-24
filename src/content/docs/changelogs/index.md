@@ -7,16 +7,24 @@ description: Changes made through-out the project life-cycle related everything.
 
 **Repository:** [berserk-wiki](https://gitlab.com/berserkarch/berserk-wiki.git)
 
-**Generated:** 2025-07-24 03:55:13
+**Generated:** 2025-07-24 13:43:42
 
 ## July 2025
 
 ### ✨ Features
 
+- **Added vm creation guide for vmware** ([dc72423](https://gitlab.com/berserkarch/berserk-wiki/-/commit/dc72423aadb865d5b3eb148c6f45603d7f4ad1e2)) - *Gaurav Raj* `2025-07-24 13:36`
+- **Added vm creation guide for vmware** ([cf6f3c2](https://gitlab.com/berserkarch/berserk-wiki/-/commit/cf6f3c2afa366bb0f9796be6cd9ddd2aa15465cd)) - *Gaurav Raj* `2025-07-24 13:36` *(1 files, +151/-0)*
+- **Added sitemap generation** ([181ac9e](https://gitlab.com/berserkarch/berserk-wiki/-/commit/181ac9ef54d10e651922a06a57396b821f226d36)) - *Gaurav Raj* `2025-07-24 13:35` *(1 files, +2/-0)*
+- **Added updated changelogs** ([17b7fbb](https://gitlab.com/berserkarch/berserk-wiki/-/commit/17b7fbb2f9b86b1400285802d3c965f2ed5459a4)) - *Gaurav Raj* `2025-07-24 03:57` *(5 files, +168/-142)*
 - **Added requirements and vm creation on virtualbox guide** ([d174ad3](https://gitlab.com/berserkarch/berserk-wiki/-/commit/d174ad35709c95183af5d68b5e3159a19d490d60)) - *Gaurav Raj* `2025-07-23 20:30` *(5 files, +160/-1)*
 - **Added links in sidebar** ([7aa6af3](https://gitlab.com/berserkarch/berserk-wiki/-/commit/7aa6af3d4cab1f9a14d415651b82f397e304b0b0)) - *Gaurav Raj* `2025-07-03 14:30` *(1 files, +4/-0)*
 - **Added changelogs page** ([fa928d4](https://gitlab.com/berserkarch/berserk-wiki/-/commit/fa928d43fd4adfefb04735d7e361ef484ccd6fbb)) - *Gaurav Raj* `2025-07-03 14:24`
 - **Added changelogs page** ([fd8d7b9](https://gitlab.com/berserkarch/berserk-wiki/-/commit/fd8d7b9a788a335cf4d657599f37f2a793d6ca93)) - *Gaurav Raj* `2025-07-03 14:20` *(1 files, +11/-0)*
+
+### 🐛 Bug Fixes
+
+- **Fixed broken link** ([769377d](https://gitlab.com/berserkarch/berserk-wiki/-/commit/769377d287f61f49960f69f147fc2c73dffa7161)) - *Gaurav Raj* `2025-07-24 04:11` *(1 files, +1/-1)*
 
 ### 📦 Dependencies
 
@@ -26,6 +34,7 @@ description: Changes made through-out the project life-cycle related everything.
 
 ### 🔧 Other Changes
 
+- **Removed redundant instructions** ([98988a1](https://gitlab.com/berserkarch/berserk-wiki/-/commit/98988a1b708fa79f392dcb14048ddc194735c95b)) - *Gaurav Raj* `2025-07-24 13:36` *(1 files, +0/-2)*
 - **Installating system guide written** ([780c5db](https://gitlab.com/berserkarch/berserk-wiki/-/commit/780c5db31fa7fff64aa2f47ea548e09358c82267)) - *Gaurav Raj* `2025-07-23 23:04` *(2 files, +120/-4)*
 
 ## June 2025
