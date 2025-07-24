@@ -89,8 +89,6 @@ This guide provides step-by-step instructions for installing Berserk Arch Linux 
 
 The system will boot into *XFCE DE*, for the password use `liveuser:liveuser`
 
-*[IMAGE PLACEHOLDER: Berserk Arch desktop with Calamares installer icon]*
-
 #### Pre-Installation Checks
 1. **Display Resolution**
     For setting up the correct display resolution,
