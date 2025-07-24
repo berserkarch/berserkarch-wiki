@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://wiki.berserkarch.org",
 	integrations: [
 		starlight({
 			title: 'Berserk Arch',
@@ -17,6 +18,7 @@ export default defineConfig({
 					items: [
 						{ label: 'Requirements', slug: 'installation/requirements' },
 						{ label: 'Install on VirtualBox (Guest)', slug: 'installation/virtualbox' },
+						{ label: 'Install on VMware (Guest)', slug: 'installation/vmware' },
 						{ label: 'Installing the system', slug: 'installation/installation' },
 					],
 				},
