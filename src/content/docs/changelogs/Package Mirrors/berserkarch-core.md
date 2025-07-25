@@ -7,7 +7,7 @@ description: Changes made through-out the project life-cycle related everything.
 
 **Repository:** [berserk-core-src](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src.git)
 
-**Generated:** 2025-07-24 03:28:57
+**Generated:** 2025-07-26 04:32:34
 
 ## July 2025
 
@@ -17,6 +17,11 @@ description: Changes made through-out the project life-cycle related everything.
 
 ### ✨ Features
 
+- **Added updated builds** ([76fffab](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/76fffab0f3c33266973bb677da5e5e18683a19a1)) - *Gaurav Raj* `2025-07-25 18:00` *(14 files, +18/-16)*
+- **Added updated hooks build** ([94d3758](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/94d3758119d0598da787b90230acf6f30a3278af)) - *Gaurav Raj* `2025-07-25 07:38` *(2 files, +7/-17)*
+- **Added docker configurations in calamares** ([4be31cc](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/4be31ccf67d22928d80ba646c8cfcb70b7c188b7)) - *Gaurav Raj* `2025-07-25 04:51` *(2 files, +3/-1)*
+- **Added updated hooks** ([31b9280](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/31b92807d2e0cffb888a98ab7bdddd9cb1c0e71d)) - *Gaurav Raj* `2025-07-25 01:32` *(2 files, +14/-6)*
+- **Added updated changelogs** ([0fb6838](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/0fb6838cfc73acc1a3f28b5113e728edb435e453)) - *Gaurav Raj* `2025-07-24 04:00` *(1 files, +110/-0)*
 - **Added cleanup scripts** ([56b1cde](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/56b1cde9fbbd20bbf0e35ac7ebee8465fd207208)) - *Gaurav Raj* `2025-07-20 19:52` *(2 files, +3/-3)*
 - **Added installer scripts** ([079a31a](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/079a31a8a2bb85e4aca254eb7b32ee89960b9d47)) - *Gaurav Raj* `2025-07-20 19:47` *(4 files, +452/-0)*
 - **Added new configs** ([cf61405](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/cf61405d5e294ba53bf8716bd617cc94e563a421)) - *Gaurav Raj* `2025-07-20 17:28` *(2 files, +55/-14)*
@@ -62,6 +67,8 @@ description: Changes made through-out the project life-cycle related everything.
 
 ### 📦 Dependencies
 
+- **WIP on main: 94d3758 added updated hooks build** ([6779777](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/677977795be3ff8e47c9d0e2db14cbba7040fbce)) - *Gaurav Raj* `2025-07-25 17:39` *(1 files, +1/-1)*
+- **Index on main: 94d3758 added updated hooks build** ([73a01f9](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/73a01f9c8d72d5a808bba49f2fe30e6f7c707997)) - *Gaurav Raj* `2025-07-25 17:39`
 - **Updated to newest versions** ([0f284e7](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/0f284e7872d3a3097e9d6f34001a96e1438621f9)) - *Gaurav Raj* `2025-07-20 13:09` *(12 files, +12/-12)*
 - **Updated packages list** ([756c5a2](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/756c5a22050d8a265697f1c42a27fda7563df51e)) - *Gaurav Raj* `2025-07-19 17:22` *(4 files, +263/-6)*
 - **Updated packages list** ([7432695](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/7432695071f27b5762ac37468e9cdc4a9b3d10ce)) - *Gaurav Raj* `2025-07-18 00:43` *(4 files, +40/-165)*
@@ -74,8 +81,6 @@ description: Changes made through-out the project life-cycle related everything.
 
 - **Removed redundant commands/scripts** ([30a7c8e](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/30a7c8e805a90ede28584649fdfcc59e2b639e26)) - *Gaurav Raj* `2025-07-20 18:53` *(3 files, +2/-7)*
 - **Removed apparmor hooks** ([367bca2](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/367bca278c70896547510643e993b818eb2e57a2)) - *Gaurav Raj* `2025-07-12 20:34` *(3 files, +2/-17)*
-- **WIP on main: eb8acc7 added build script here** ([9c00d68](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/9c00d68c55696ce3744d5b06091f73cd11961ed1)) - *Gaurav Raj* `2025-07-10 22:51` *(1 files, +1/-1)*
-- **Index on main: eb8acc7 added build script here** ([40fadc7](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/40fadc7612dc3d95f7c5c4609b048b59600e8ec5)) - *Gaurav Raj* `2025-07-10 22:51`
 
 ## June 2025
 
@@ -112,4 +117,3 @@ description: Changes made through-out the project life-cycle related everything.
 - **Changed source url** ([06b9b20](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/06b9b20fed3c4c9088d9893ce0a1c23501dda3a3)) - *Gaurav Raj* `2025-06-27 20:26` *(1 files, +1/-1)*
 - **Changed source url** ([58c670e](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/58c670e3a2a29589e560b8b3272700dc51ca6c88)) - *Gaurav Raj* `2025-06-27 20:23` *(1 files, +3/-3)*
 - **Changed source url** ([75fafdd](https://gitlab.com/berserkarch/berserk-packages/berserk-core-src/-/commit/75fafdd0af5318aade02bff6c7200f6c2fc23a0b)) - *Gaurav Raj* `2025-06-27 20:21` *(1 files, +2/-2)*
-

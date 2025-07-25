@@ -7,7 +7,7 @@ description: Changes made through-out the project life-cycle related everything.
 
 **Repository:** [berserk-extra-src](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src.git)
 
-**Generated:** 2025-07-24 03:33:29
+**Generated:** 2025-07-26 04:27:35
 
 ## July 2025
 
@@ -21,6 +21,11 @@ description: Changes made through-out the project life-cycle related everything.
 
 ### ✨ Features
 
+- **Added dev tools** ([31f9359](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/31f935917a584b7764f06dc139592dcde50c3ad0)) - *Gaurav Raj* `2025-07-26 04:11` *(2 files, +3/-111)*
+- **Added dev tools** ([f72d540](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/f72d540c31390f283cd23f13e4fca3d5a10f957a)) - *Gaurav Raj* `2025-07-26 04:07` *(4 files, +334/-0)*
+- **Added updrive package** ([fb3c18b](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/fb3c18b188be784b8a17de803ac72cbebf80d130)) - *Gaurav Raj* `2025-07-26 01:38` *(3 files, +125/-0)*
+- **Added updated builds** ([6cbf361](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/6cbf361364d2728029b81088c406e95be68e33d4)) - *Gaurav Raj* `2025-07-25 18:33` *(10 files, +17/-7)*
+- **Added updated changelogs** ([73f31ed](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/73f31eda55087912c5f27997377198b063b91d70)) - *Gaurav Raj* `2025-07-24 04:01` *(1 files, +58/-0)*
 - **Added customized burpsuite loader** ([8c8696d](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/8c8696d6002b859758234d9a0dece3fd2284509b)) - *Gaurav Raj* `2025-07-20 15:47` *(6 files, +87/-0)*
 - **Added cleanup file** ([1263496](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/1263496da3e353c02789d710532edd45cc35455e)) - *Gaurav Raj* `2025-07-13 23:50` *(2 files, +4/-1)*
 - **Added configurations** ([d61608d](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/d61608daffa78e8ff5a0543d218f8258470aaf6e)) - *Gaurav Raj* `2025-07-13 20:28`
@@ -60,4 +65,3 @@ description: Changes made through-out the project life-cycle related everything.
 - **Changed owner of tmux** ([a400956](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/a40095633d199e28a5720a9facc3a09f7b41aa29)) - *Gaurav Raj* `2025-07-02 01:20` *(2 files, +13/-3)*
 - **Creating new package** ([f2844b3](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/f2844b3f596a60b6faf02abfb8cac401f546a470)) - *Gaurav Raj* `2025-07-02 01:05` *(1 files, +19/-0)*
 - **Initial commit** ([b056edd](https://gitlab.com/berserkarch/berserk-packages/berserk-extra-src/-/commit/b056eddd2be30ad6e0763dca57f18afe45141cb5)) - *Gaurav Raj* `2025-07-02 01:01` *(1 files, +93/-0)*
-

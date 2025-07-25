@@ -9,7 +9,7 @@ This is the changelogs for [BerserkArch VM XFCE](https://gitlab.com/berserkarch/
 
 **Repository:** [berserk-vm-xfce](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce.git)
 
-**Generated:** 2025-07-24 03:51:25
+**Generated:** 2025-07-26 04:34:39
 
 ## July 2025
 
@@ -19,6 +19,9 @@ This is the changelogs for [BerserkArch VM XFCE](https://gitlab.com/berserkarch/
 
 ### ✨ Features
 
+- **Added new build section** ([06af6b7](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/06af6b7dc3a8c3faccc453787abd52bd943d1146)) - *Gaurav Raj* `2025-07-25 06:07` *(1 files, +11/-1)*
+- **Added packages** ([42bc24f](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/42bc24f043ebe621febe6442af878f855a366827)) - *Gaurav Raj* `2025-07-25 04:48` *(1 files, +4/-0)*
+- **Added updated changelogs** ([88da8bd](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/88da8bd079a71c872d5e3f90768991a68bd6c47d)) - *Gaurav Raj* `2025-07-24 03:59` *(1 files, +56/-0)*
 - **Added dev packages** ([cd1c587](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/cd1c587663434de5089f940fe7f40cb54afde5af)) - *Gaurav Raj* `2025-07-23 20:31` *(1 files, +1/-0)*
 - **Added qxl video drivers** ([7f061c9](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/7f061c9f86d3402ee49f7136334977e458cdaa31)) - *Gaurav Raj* `2025-07-21 00:12` *(1 files, +2/-0)*
 - **Added new configs** ([7af1445](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/7af1445887c67b8d53063f3231a305caf886efe0)) - *Gaurav Raj* `2025-07-20 17:26` *(1 files, +1/-0)*
@@ -43,8 +46,13 @@ This is the changelogs for [BerserkArch VM XFCE](https://gitlab.com/berserkarch/
 - **Configure SAST and Secret Detection in `.gitlab-ci.yml`, creating this file if it does not already exist** ([c8a548e](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/c8a548ef80c59e7a2ec83b72994da5de8c7ee40c)) - *Gaurav Raj* `2025-07-03 01:19` *(1 files, +6/-0)*
 - **Configure SAST in `.gitlab-ci.yml`, creating this file if it does not already exist** ([34b78a6](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/34b78a6a72f86aa90a4936f09e2970510b37fd47)) - *Gaurav Raj* `2025-07-03 01:19` *(1 files, +13/-0)*
 
+### 📦 Dependencies
+
+- **Updated devbuild function** ([3f00ee1](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/3f00ee1d5ecb67e6b4510b78250476434f6bdef4)) - *Gaurav Raj* `2025-07-25 07:50` *(1 files, +1/-1)*
+
 ### 🔧 Other Changes
 
+- **Removed redudant packages** ([e9c662e](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/e9c662eb6672458c9e8e96d53290273e961bd4bd)) - *Gaurav Raj* `2025-07-24 13:49` *(1 files, +3/-2)*
 - **Removed and added some packages** ([4727cca](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/4727cca41e0916509008063c9ffacf613dd1234a)) - *Gaurav Raj* `2025-07-24 02:59` *(1 files, +1/-4)*
 - **WIP on main: 198f58a rearranged packages list** ([de57157](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/de57157f170bac8ca27952dc9e2fba5ad529ab15)) - *Gaurav Raj* `2025-07-20 00:24` *(1 files, +1/-0)*
 - **Index on main: 198f58a rearranged packages list** ([965f5a2](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/965f5a2c4f220244b4469035653db733e6ab8580)) - *Gaurav Raj* `2025-07-20 00:24`
@@ -60,4 +68,3 @@ This is the changelogs for [BerserkArch VM XFCE](https://gitlab.com/berserkarch/
 - **Removed booting from opensource and nvidia drivers from syslinux** ([082caa5](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/082caa5d19700133bd652648d42c0a06f3c6e4d8)) - *Gaurav Raj* `2025-07-04 22:14` *(1 files, +18/-18)*
 - **Refractored comments** ([56a2f15](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/56a2f15bd3f941349f3ea2b341e07339136256b5)) - *Gaurav Raj* `2025-07-03 14:00` *(1 files, +1/-3)*
 - **Initial commit** ([dda0600](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/dda060007a956b4d2555c67e4383aa91869d857a)) - *Gaurav Raj* `2025-07-03 01:19` *(1 files, +93/-0)*
-
