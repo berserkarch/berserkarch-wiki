@@ -9,7 +9,7 @@ This is the changelogs for [BerserkArch VM XFCE](https://gitlab.com/berserkarch/
 
 **Repository:** [berserk-vm-xfce](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce.git)
 
-**Generated:** 2025-07-26 04:34:39
+**Generated:** 2025-07-31 05:40:46
 
 ## July 2025
 
@@ -19,6 +19,10 @@ This is the changelogs for [BerserkArch VM XFCE](https://gitlab.com/berserkarch/
 
 ### ✨ Features
 
+- **Added user config package** ([5e295a8](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/5e295a87ee4419232632af1b8c2eff2b65f2203b)) - *Gaurav Raj* `2025-07-26 20:33` *(1 files, +1/-0)*
+- **Added default-themes package** ([55100db](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/55100db7fc8610523644661883ca37712882d874)) - *Gaurav Raj* `2025-07-26 19:47` *(1 files, +2/-1)*
+- **Added berserk-rofi package** ([a990e9d](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/a990e9dfb65a962271baef05d4470488c88b0d03)) - *Gaurav Raj* `2025-07-26 17:51` *(1 files, +1/-0)*
+- **Added updated changelogs** ([621c372](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/621c372c07e46dabc02bad64315f9a8229206802)) - *Gaurav Raj* `2025-07-26 04:36` *(1 files, +9/-1)*
 - **Added new build section** ([06af6b7](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/06af6b7dc3a8c3faccc453787abd52bd943d1146)) - *Gaurav Raj* `2025-07-25 06:07` *(1 files, +11/-1)*
 - **Added packages** ([42bc24f](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/42bc24f043ebe621febe6442af878f855a366827)) - *Gaurav Raj* `2025-07-25 04:48` *(1 files, +4/-0)*
 - **Added updated changelogs** ([88da8bd](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/88da8bd079a71c872d5e3f90768991a68bd6c47d)) - *Gaurav Raj* `2025-07-24 03:59` *(1 files, +56/-0)*
@@ -48,10 +52,13 @@ This is the changelogs for [BerserkArch VM XFCE](https://gitlab.com/berserkarch/
 
 ### 📦 Dependencies
 
+- **Removed polybar and added it as a dependency for berserk-config-xfce** ([33fdfed](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/33fdfed0a477eed41bc8c1dccbb2f6a41b2d2013)) - *Gaurav Raj* `2025-07-26 21:08` *(1 files, +0/-1)*
 - **Updated devbuild function** ([3f00ee1](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/3f00ee1d5ecb67e6b4510b78250476434f6bdef4)) - *Gaurav Raj* `2025-07-25 07:50` *(1 files, +1/-1)*
 
 ### 🔧 Other Changes
 
+- **Removed env config from here** ([79c76f2](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/79c76f29e660ea9d3a4a90b3f64a9228852af0ce)) - *Gaurav Raj* `2025-07-28 08:30` *(1 files, +1/-1)*
+- **Removed redudant packages** ([6ff501c](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/6ff501cfffa1e06e7202c311d508af9ef1d1e1bd)) - *Gaurav Raj* `2025-07-26 17:22` *(1 files, +0/-2)*
 - **Removed redudant packages** ([e9c662e](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/e9c662eb6672458c9e8e96d53290273e961bd4bd)) - *Gaurav Raj* `2025-07-24 13:49` *(1 files, +3/-2)*
 - **Removed and added some packages** ([4727cca](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/4727cca41e0916509008063c9ffacf613dd1234a)) - *Gaurav Raj* `2025-07-24 02:59` *(1 files, +1/-4)*
 - **WIP on main: 198f58a rearranged packages list** ([de57157](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/de57157f170bac8ca27952dc9e2fba5ad529ab15)) - *Gaurav Raj* `2025-07-20 00:24` *(1 files, +1/-0)*
@@ -68,3 +75,4 @@ This is the changelogs for [BerserkArch VM XFCE](https://gitlab.com/berserkarch/
 - **Removed booting from opensource and nvidia drivers from syslinux** ([082caa5](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/082caa5d19700133bd652648d42c0a06f3c6e4d8)) - *Gaurav Raj* `2025-07-04 22:14` *(1 files, +18/-18)*
 - **Refractored comments** ([56a2f15](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/56a2f15bd3f941349f3ea2b341e07339136256b5)) - *Gaurav Raj* `2025-07-03 14:00` *(1 files, +1/-3)*
 - **Initial commit** ([dda0600](https://gitlab.com/berserkarch/iso-profiles/berserk-vm-xfce/-/commit/dda060007a956b4d2555c67e4383aa91869d857a)) - *Gaurav Raj* `2025-07-03 01:19` *(1 files, +93/-0)*
+
