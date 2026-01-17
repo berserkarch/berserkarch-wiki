@@ -13,6 +13,12 @@ hero:
 
 BerserkArch includes `btweak`, a powerful command-line tool for managing containers, installing tools, and fixing common issues. While you can use standard Docker commands, `btweak` simplifies BerserkArch-specific workflows.
 
+### Installation (if not already is)
+
+```bash
+pipx install btweak
+```
+
 ### Available Commands
 ```bash
 btweak fix      # Fix common system issues
