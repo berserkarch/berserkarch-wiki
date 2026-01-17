@@ -57,6 +57,7 @@ From here we can take either of 2 ways:
 
         - _Coming Soon..._
         - If you've chosen this, you know what you're doing 😌
+        - You can use `cfdisk`, `gdisk`, `fdisk`, `gparted`, or anything else and later selete each partition in calamares menu, your choice...
     
     3. **Now Choose if you want to `encrypt system`**
 

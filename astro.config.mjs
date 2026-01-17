@@ -8,6 +8,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Berserk Arch',
+			customCss: ['./src/styles/custom.css'],
 			logo: {
 				src: './src/assets/banner-logo.svg',
 			},
@@ -23,16 +24,16 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Guides',
-					// items: [
-					// 	// Each item here is one entry in the navigation menu.
-					// 	{ label: 'Example Guide', slug: 'guides/example' },
-					// ],
-					autogenerate: { directory: 'guides' },
+					label: 'Containers',
+					items: [
+						{ label: 'Docker', slug: 'containers/docker' },
+					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Troubleshoot and Management',
+					items: [
+						{ label: 'Btweak', slug: 'troubleshoot-and-management/btweak' },
+					],
 				},
 				{
 					label: 'ChangeLogs',
