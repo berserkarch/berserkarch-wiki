@@ -1,0 +1,9 @@
+/* Fix Starlight's default content centering.
+   By default, .sl-container gets margin-inline: auto at ≥72rem viewports,
+   which centers the content in the main pane — creating an awkward gap
+   between the sidebar and the content. Override to left-align instead. */
+@media (min-width: 72rem) {
+  .content-panel .sl-container {
+    margin-inline: 3rem;
+  }
+}
