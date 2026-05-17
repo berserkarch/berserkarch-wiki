@@ -40,7 +40,7 @@ export default defineConfig({
             { label: "Install on VMware (Guest)", slug: "installation/vmware" },
             {
               label: "Installing the system",
-              slug: "installation/installation",
+              slug: "installation/install",
             },
           ],
         },
@@ -49,10 +49,8 @@ export default defineConfig({
           items: [{ label: "Docker", slug: "containers/docker" }],
         },
         {
-          label: "Troubleshoot and Management",
-          items: [
-            { label: "Btweak", slug: "troubleshoot-and-management/btweak" },
-          ],
+          label: "Tools and Profiles",
+          items: [{ label: "Berserk", slug: "tools-and-profiles/berserk" }],
         },
         {
           label: "ChangeLogs",
