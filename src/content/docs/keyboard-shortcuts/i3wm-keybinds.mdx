@@ -1,0 +1,91 @@
+---
+title: i3wm Keybindings
+description: Complete keyboard shortcut reference for i3wm on BerserkArch.
+---
+
+import { Aside } from '@astrojs/starlight/components';
+
+<Aside type="note">
+  The modifier key (`$mod`) is **Super** (Mod4 / Windows key).
+</Aside>
+
+## Applications
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + Return` | Open terminal (kitty) |
+| `Super + Space` | Open dmenu_run |
+| `Super + D` | Open rlaunch (BerserkArch launcher) |
+| `Super + Shift + P` | Open slaunch (BerserkArch launcher) |
+| `Super + Q` | Kill focused window |
+
+## Focus
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + H` or `Super + Left` | Focus left |
+| `Super + J` or `Super + Down` | Focus down |
+| `Super + K` or `Super + Up` | Focus up |
+| `Super + L` or `Super + Right` | Focus right |
+| `Super + A` | Focus parent container |
+| `Super + Shift + F` | Toggle focus between tiling and floating |
+
+## Moving Windows
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + Shift + H` or `Super + Shift + Left` | Move window left |
+| `Super + Shift + J` or `Super + Shift + Down` | Move window down |
+| `Super + Shift + K` or `Super + Shift + Up` | Move window up |
+| `Super + Shift + L` or `Super + Shift + Right` | Move window right |
+
+## Layout
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + Ctrl + H` | Split horizontal |
+| `Super + V` | Split vertical |
+| `Super + F` | Toggle fullscreen |
+| `Super + W` | Tabbed layout |
+| `Super + E` | Toggle split layout |
+| `Super + Shift + Space` | Toggle floating |
+
+## Workspaces
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + 1–0` | Switch to workspace 1–10 |
+| `Super + Shift + 1–0` | Move container to workspace 1–10 |
+
+## i3 Session
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + B` | Toggle polybar |
+| `Super + Shift + C` | Reload i3 config |
+| `Super + Shift + R` | Restart i3 in-place |
+| `Super + Shift + E` | Exit i3 (prompts confirmation) |
+| `Super + R` | Enter resize mode |
+
+## Resize Mode
+
+<Aside type="tip">
+  Press `Super + R` to enter resize mode. Press `Enter`, `Escape`, or `Super + R` to exit.
+</Aside>
+
+| Key | Action |
+|-----|--------|
+| `H` or `Left` | Shrink width (-10px / -10%) |
+| `J` or `Down` | Grow height (+10px / +10%) |
+| `K` or `Up` | Shrink height (-10px / -10%) |
+| `L` or `Right` | Grow width (+10px / +10%) |
+| `Return` / `Escape` / `Super + R` | Exit resize mode |
+
+## Media Keys
+
+| Shortcut | Action |
+|----------|--------|
+| `XF86AudioRaiseVolume` | Volume up +10% |
+| `XF86AudioLowerVolume` | Volume down -10% |
+| `XF86AudioMute` | Toggle audio mute |
+| `XF86AudioMicMute` | Toggle mic mute |

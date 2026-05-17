@@ -1,0 +1,88 @@
+---
+title: tmux Keybindings
+description: Complete keyboard shortcut reference for tmux on BerserkArch.
+---
+
+import { Aside } from "@astrojs/starlight/components";
+
+<Aside type="note">
+  The **prefix key** is `Ctrl + Space`. Shortcuts listed as `Prefix + X` require
+  pressing the prefix first, then the key. Shortcuts without "Prefix" are bound
+  directly (no prefix needed).
+</Aside>
+
+:::tip
+After first time invoking tmux, press `Ctrl + Space` then `Shift + I` to initialize tmux setup for first time.
+:::
+
+## Session
+
+| Shortcut     | Action             |
+| ------------ | ------------------ |
+| `Prefix + r` | Reload tmux config |
+
+## Windows (Tabs)
+
+| Shortcut        | Action                    |
+| --------------- | ------------------------- |
+| `Shift + Left`  | Switch to previous window |
+| `Shift + Right` | Switch to next window     |
+| `Alt + H`       | Switch to previous window |
+| `Alt + L`       | Switch to next window     |
+
+## Splitting Panes
+
+| Shortcut     | Action                                               |
+| ------------ | ---------------------------------------------------- |
+| `Prefix + "` | Split pane horizontally (opens in current directory) |
+| `Prefix + %` | Split pane vertically (opens in current directory)   |
+| `Prefix + i` | Split pane horizontally                              |
+| `Prefix + o` | Split pane vertically                                |
+
+## Navigating Panes
+
+| Shortcut      | Action            |
+| ------------- | ----------------- |
+| `Prefix + H`  | Select left pane  |
+| `Prefix + L`  | Select right pane |
+| `Prefix + K`  | Select upper pane |
+| `Prefix + J`  | Select lower pane |
+| `Alt + Left`  | Select left pane  |
+| `Alt + Right` | Select right pane |
+| `Alt + Up`    | Select upper pane |
+| `Alt + Down`  | Select lower pane |
+
+## Resizing Panes
+
+| Shortcut                                 | Action                 |
+| ---------------------------------------- | ---------------------- |
+| `Alt + Ctrl + Left` or `Alt + Ctrl + H`  | Resize pane left (-2)  |
+| `Alt + Ctrl + Right` or `Alt + Ctrl + L` | Resize pane right (+2) |
+| `Alt + Ctrl + Up` or `Alt + Ctrl + K`    | Resize pane up (-2)    |
+| `Alt + Ctrl + Down` or `Alt + Ctrl + J`  | Resize pane down (+2)  |
+
+## Copy Mode (vi-style)
+
+<Aside type="tip">Enter copy mode with `Prefix + [`. Exit with `q`.</Aside>
+
+| Shortcut     | Action                                  |
+| ------------ | --------------------------------------- |
+| `Prefix + [` | Enter copy mode                         |
+| `v`          | Begin selection                         |
+| `Ctrl + V`   | Toggle rectangle selection              |
+| `y`          | Copy selection to clipboard (tmux-yank) |
+| `q`          | Exit copy mode                          |
+
+## Mouse Support
+
+Mouse mode is enabled. You can:
+
+- Scroll through pane history with the scroll wheel.
+- Click to select panes and windows.
+- Click and drag to select and copy text (copied to clipboard via tmux-yank).
+
+## Sending the Prefix
+
+| Shortcut                | Action                               |
+| ----------------------- | ------------------------------------ |
+| `Prefix + Ctrl + Space` | Send prefix to the inner application |

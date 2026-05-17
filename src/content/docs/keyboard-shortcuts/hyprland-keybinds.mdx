@@ -1,0 +1,104 @@
+---
+title: Hyprland Keybindings
+description: Complete keyboard shortcut reference for Hyprland on BerserkArch.
+---
+
+import { Aside } from '@astrojs/starlight/components';
+
+<Aside type="note">
+  The modifier key (`$mainMod`) is **Super** (Windows key). Mouse buttons: `mouse:272` = Left click, `mouse:273` = Right click.
+</Aside>
+
+## Applications
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + Return` | Open terminal (kitty) |
+| `Super + E` | Open file manager (Thunar) |
+| `Super + Space` | Open app launcher (rlaunch) |
+| `Super + Ctrl + P` | Open slaunch |
+| `Super + V` | Open clipboard history (cliphist + rofi) |
+| `Super + /` | Show keybinds hint overlay |
+| `Super + M` | Exit / shutdown (hyprshutdown) |
+
+## Window Management
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + Q` | Close active window |
+| `Super + Shift + Space` | Toggle floating |
+| `Super + P` | Toggle pseudo-tiling (dwindle) |
+| `Super + J` | Toggle split direction (dwindle) |
+
+## Focus
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + H` or `Super + Left` | Focus window left |
+| `Super + L` or `Super + Right` | Focus window right |
+| `Super + K` or `Super + Up` | Focus window up |
+| `Super + J` or `Super + Down` | Focus window down |
+| `Super + Tab` | Switch to previous workspace |
+| `Alt + Tab` | Move focus down |
+
+## Moving Windows
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + Shift + H` | Move window left |
+| `Super + Shift + L` | Move window right |
+| `Super + Shift + K` | Move window up |
+| `Super + Shift + J` | Move window down |
+| `Super + Shift + Ctrl + Left` | Move active window left (float-aware) |
+| `Super + Shift + Ctrl + Right` | Move active window right (float-aware) |
+| `Super + Shift + Ctrl + Up` | Move active window up (float-aware) |
+| `Super + Shift + Ctrl + Down` | Move active window down (float-aware) |
+| `Super + Z + drag` | Move window (mouse) |
+| `Super + LMB drag` | Move window (mouse) |
+
+## Resizing Windows
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + Shift + Right` | Resize right (+30px) |
+| `Super + Shift + Left` | Resize left (-30px) |
+| `Super + Shift + Up` | Resize up (-30px) |
+| `Super + Shift + Down` | Resize down (+30px) |
+| `Super + Alt + L` | Resize right (+30px) |
+| `Super + Alt + H` | Resize left (-30px) |
+| `Super + Alt + K` | Resize up (-30px) |
+| `Super + Alt + J` | Resize down (+30px) |
+| `Super + X + drag` | Resize window (mouse) |
+| `Super + RMB drag` | Resize window (mouse) |
+
+## Workspaces
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + 1–9, 0` | Switch to workspace 1–10 |
+| `Super + Shift + 1–9, 0` | Move active window to workspace 1–10 |
+| `Super + Ctrl + Right` or `Super + Ctrl + L` | Next workspace |
+| `Super + Ctrl + Left` or `Super + Ctrl + H` | Previous workspace |
+| `Super + Scroll Down` | Next workspace |
+| `Super + Scroll Up` | Previous workspace |
+
+## Special Workspace (Scratchpad)
+
+| Shortcut | Action |
+|----------|--------|
+| `Super + S` | Toggle scratchpad (magic) |
+| `Super + Shift + S` | Move active window to scratchpad |
+
+## Media & System Keys
+
+| Shortcut | Action |
+|----------|--------|
+| `XF86AudioRaiseVolume` | Volume up +5% |
+| `XF86AudioLowerVolume` | Volume down -5% |
+| `XF86AudioMute` | Toggle audio mute |
+| `XF86AudioMicMute` | Toggle mic mute |
+| `XF86MonBrightnessUp` | Brightness up +5% |
+| `XF86MonBrightnessDown` | Brightness down -5% |
+| `XF86AudioNext` | Next track |
+| `XF86AudioPlay` / `XF86AudioPause` | Play / Pause |
+| `XF86AudioPrev` | Previous track |

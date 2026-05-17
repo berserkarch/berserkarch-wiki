@@ -53,6 +53,15 @@ export default defineConfig({
           items: [{ label: "Berserk", slug: "tools-and-profiles/berserk" }],
         },
         {
+          label: "Keyboard Shortcuts",
+          items: [
+            { label: "HyprLand", slug: "keyboard-shortcuts/hyprland-keybinds" },
+            { label: "OpenBox", slug: "keyboard-shortcuts/openbox-keybinds" },
+            { label: "i3wm", slug: "keyboard-shortcuts/i3wm-keybinds" },
+            { label: "tmux", slug: "keyboard-shortcuts/tmux-keybinds" },
+          ],
+        },
+        {
           label: "ChangeLogs",
           items: [{ autogenerate: { directory: "changelogs" } }],
         },
