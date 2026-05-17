@@ -10,6 +10,7 @@ This guide provides step-by-step instructions for installing Berserk Arch Linux 
 ## Prerequisites
 
 ### Host System Requirements
+
 - **VirtualBox Version**: 7.0+ (latest recommended)
 - **Host RAM**: 8GB minimum (16GB+ recommended)
 - **Available Storage**: 60GB+ free space
@@ -17,6 +18,7 @@ This guide provides step-by-step instructions for installing Berserk Arch Linux 
 - **Host OS**: Windows 10/11, macOS 10.15+, or Linux kernel 4.0+
 
 ### Download Requirements
+
 - Berserk Arch ISO file (with Calamares installer)
 - VirtualBox Extension Pack (for enhanced features)
 
@@ -45,35 +47,37 @@ This guide provides step-by-step instructions for installing Berserk Arch Linux 
 
 3. **Unattended Install**
 
-    Leave this part as is, and click `Hardware`
+   Leave this part as is, and click `Hardware`
 
 4. **Hardware**
-    ```bash
-    Base Memory: 8192 MB # for 8 GB use 4096 for 4 GB
-    Processors: 4 # give as much as you can
-    ```
 
-    now click on `Hard Disk` next
+   ```bash
+   Base Memory: 8192 MB # for 8 GB use 4096 for 4 GB
+   Processors: 4 # give as much as you can
+   ```
+
+   now click on `Hard Disk` next
 
 ![Hardware Configuration](../../../assets/install/vmhardware.png)
 
 4. **Hard Disk**
 
-    Select `create a virtual hard disk now`
-    ```bash
-    Size: 60 GB # atleast give it this much
-    ```
+   Select `create a virtual hard disk now`
 
-    now click on **Finish**
+   ```bash
+   Size: 60 GB # atleast give it this much
+   ```
+
+   now click on **Finish**
 
 ![Hardware Configuration](../../../assets/install/vmhdd.png)
 
 ### Step 3: Start the VM
+
 ![start the vm](../../../assets/install/vmstart.png)
 
 <br/>
 <br/>
-
 
 ## Installation Process
 
@@ -87,28 +91,28 @@ This guide provides step-by-step instructions for installing Berserk Arch Linux 
 
 ### Step 2: Live Environment
 
-The system will boot into *XFCE DE*, for the password use `liveuser:liveuser`
+The system will boot into _XFCE DE_, for the password use `liveuser:liveuser`
 
 #### Pre-Installation Checks
+
 1. **Display Resolution**
-    For setting up the correct display resolution,
-    - Right click on the desktop
-    - choose Settings > Display
+   For setting up the correct display resolution,
+   - Right click on the desktop
+   - choose Settings > Display
 
 ![Display settings](../../../assets/install/resolution.png)
 
 2. **Set the resolution**
-    - Now choose the correct resolution
-    - Click on Apply
-    - Then click `keep the configuration`
+   - Now choose the correct resolution
+   - Click on Apply
+   - Then click `keep the configuration`
 
 ![display resolution](../../../assets/install/setres.png)
-
 
 ### Installation
 
 Now everything is out-of-way, we can move straight to installation.
 
 ![desktop](../../../assets/install/bootdesc.png)
-    
-Here's the [installation guide](/installation/installation/), move on and install the system.
+
+Here's the [installation guide](/installation/install/), move on and install the system.
