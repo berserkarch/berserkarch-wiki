@@ -1,9 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --sl-font-mono: 'JetBrains Mono', monospace;
+  --sl-font-system: 'Space Grotesk', sans-serif;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-weight: 700;
+}
+
 /* Fix Starlight's default content centering.
    By default, .sl-container gets margin-inline: auto at ≥72rem viewports,
    which centers the content in the main pane — creating an awkward gap
-   between the sidebar and the content. Override to left-align instead. */
+   between the sidebar and the content. Override to left-align instead.
+
+   Also fix the right sidebar width so it only takes its natural width
+   instead of absorbing half the remaining space (which causes a big gap
+   on the far right). */
 @media (min-width: 72rem) {
   .content-panel .sl-container {
+    max-width: none;
     margin-inline: 3rem;
+  }
+
+  /* Right sidebar: only take the sidebar's natural width, not half the leftover space */
+  .right-sidebar-container {
+    width: var(--sl-sidebar-width) !important;
+  }
+
+  /* Main content pane: absorb all the remaining space instead of splitting with the sidebar */
+  [data-has-sidebar][data-has-toc] .main-pane {
+    width: calc(100% - var(--sl-sidebar-width)) !important;
   }
 }
