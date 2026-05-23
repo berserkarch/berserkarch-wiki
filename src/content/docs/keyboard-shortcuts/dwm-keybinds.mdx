@@ -1,0 +1,172 @@
+---
+title: DWM Keybindings
+description: Complete keyboard shortcut reference for DWM on BerserkArch.
+---
+
+import { Aside } from "@astrojs/starlight/components";
+
+<Aside type="note">The modifier key is **Super** (Mod4 / Windows key).</Aside>
+
+## Applications
+
+| Shortcut         | Action                |
+| ---------------- | --------------------- |
+| `Super + Return` | Open terminal (kitty) |
+| `Super + Space`  | Open Rofi (rlaunch)   |
+| `Super + U`      | Screenshot (slaunch)  |
+
+## Window Management
+
+| Shortcut                 | Action                                       |
+| ------------------------ | -------------------------------------------- |
+| `Super + Q`              | Kill focused window                          |
+| `Super + Shift + Return` | Zoom (promote to master / swap master↔stack) |
+| `Super + Shift + C`      | Toggle floating                              |
+| `Super + F`              | Toggle fullscreen                            |
+| `Super + E`              | Hide window                                  |
+| `Super + Shift + E`      | Restore hidden window                        |
+
+## Focus & Stack
+
+| Shortcut            | Action                           |
+| ------------------- | -------------------------------- |
+| `Super + J`         | Focus next window (down stack)   |
+| `Super + K`         | Focus previous window (up stack) |
+| `Super + Shift + J` | Move window down stack           |
+| `Super + Shift + K` | Move window up stack             |
+| `Super + Tab`       | Toggle between last two tags     |
+| `Super + Left`      | Shift view to previous tag       |
+| `Super + Right`     | Shift view to next tag           |
+
+## Master Area
+
+| Shortcut            | Action                             |
+| ------------------- | ---------------------------------- |
+| `Super + H`         | Decrease master area width         |
+| `Super + L`         | Increase master area width         |
+| `Super + Shift + H` | Increase client size ratio (cfact) |
+| `Super + Shift + L` | Decrease client size ratio (cfact) |
+| `Super + Shift + O` | Reset cfact to default             |
+| `Super + I`         | Increase number of master windows  |
+| `Super + D`         | Decrease number of master windows  |
+
+## Gaps
+
+| Shortcut                   | Action                         |
+| -------------------------- | ------------------------------ |
+| `Super + Ctrl + T`         | Toggle all gaps                |
+| `Super + Ctrl + I`         | Increase overall gaps          |
+| `Super + Ctrl + D`         | Decrease overall gaps          |
+| `Super + Ctrl + Shift + D` | Reset gaps to default          |
+| `Super + Shift + I`        | Increase inner gaps            |
+| `Super + Ctrl + Shift + I` | Decrease inner gaps            |
+| `Super + Ctrl + O`         | Increase outer gaps            |
+| `Super + Ctrl + Shift + O` | Decrease outer gaps            |
+| `Super + Ctrl + 6`         | Increase inner horizontal gaps |
+| `Super + Ctrl + Shift + 6` | Decrease inner horizontal gaps |
+| `Super + Ctrl + 7`         | Increase inner vertical gaps   |
+| `Super + Ctrl + Shift + 7` | Decrease inner vertical gaps   |
+| `Super + Ctrl + 8`         | Increase outer horizontal gaps |
+| `Super + Ctrl + Shift + 8` | Decrease outer horizontal gaps |
+| `Super + Ctrl + 9`         | Increase outer vertical gaps   |
+| `Super + Ctrl + Shift + 9` | Decrease outer vertical gaps   |
+
+## Border
+
+| Shortcut            | Action                  |
+| ------------------- | ----------------------- |
+| `Super + Shift + -` | Decrease border size    |
+| `Super + Shift + P` | Increase border size    |
+| `Super + Shift + W` | Reset border to default |
+
+## Layouts
+
+| Shortcut                   | Layout                |
+| -------------------------- | --------------------- |
+| `Super + T`                | Tile `[]=` (default)  |
+| `Super + Shift + F`        | Monocle `[M]`         |
+| `Super + M`                | Spiral `[@]`          |
+| `Super + Ctrl + G`         | Gapless Grid `:::`    |
+| `Super + Ctrl + Shift + T` | Floating `><>`        |
+| `Super + Ctrl + Space`     | Toggle last layout    |
+| `Super + Ctrl + ,`         | Cycle layout backward |
+| `Super + Ctrl + .`         | Cycle layout forward  |
+
+<Aside type="tip">
+  Cycle through all 14 layouts with `Super + Ctrl + ,` and `Super + Ctrl + .`.
+</Aside>
+
+### All Layouts
+
+| Symbol  | Name                     | Description                                                                                                            |
+| ------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| `[]=`   | Tile                     | Default. Master window on the left, stack on the right. Master width controlled by `Super + H/L`.                      |
+| `[M]`   | Monocle                  | All windows fullscreen and stacked — only one visible at a time. Good for focused reading. Cycle with `Super + J/K`.   |
+| `[@]`   | Spiral                   | Windows arranged in a Fibonacci spiral. Each new window takes half the remaining space inward.                         |
+| `[\]`   | Dwindle                  | Like Spiral but the split alternates direction each level — horizontal then vertical, repeating.                       |
+| `H[]`   | Deck                     | Master on the left, all stack windows occupy the same right-side slot. Stack windows cycle like a deck of cards.       |
+| `TTT`   | Bstack                   | Master on top, stack windows tiled horizontally along the bottom.                                                      |
+| `===`   | Bstack Horizontal        | Master on top, stack windows stacked vertically below (opposite split direction to Bstack).                            |
+| `HHH`   | Grid                     | All windows arranged in an equal-sized grid. Count changes automatically as windows open/close.                        |
+| `###`   | Nrowgrid                 | Grid with a fixed number of rows. Force two clients to always split vertically (`FORCE_VSPLIT` is set in your config). |
+| `---`   | Horizgrid                | Windows tiled in a single horizontal row across the full screen width.                                                 |
+| `:::`   | Gapless Grid             | Same as Grid but gaps are removed — windows tile edge to edge with no spacing.                                         |
+| `\|M\|` | Centered Master          | Master window centred, stack windows split evenly on left and right sides.                                             |
+| `>M>`   | Centered Floating Master | Master window centred and floating above the tiled stack windows.                                                      |
+| `><>`   | Floating                 | No automatic tiling. All windows free-floating, moved and resized manually with mouse.                                 |
+
+## Tags (Workspaces)
+
+| Shortcut                     | Action                            |
+| ---------------------------- | --------------------------------- |
+| `Super + 1–9`                | View tag                          |
+| `Super + Ctrl + 1–9`         | Toggle tag view alongside current |
+| `Super + Shift + 1–9`        | Move focused window to tag        |
+| `Super + Ctrl + Shift + 1–9` | Toggle window on tag              |
+| `Super + 0`                  | View all tags                     |
+| `Super + Shift + 0`          | Show window on all tags           |
+
+## Multi-Monitor
+
+| Shortcut            | Action                          |
+| ------------------- | ------------------------------- |
+| `Super + ,`         | Focus previous monitor          |
+| `Super + .`         | Focus next monitor              |
+| `Super + Shift + ,` | Send window to previous monitor |
+| `Super + Shift + .` | Send window to next monitor     |
+
+## Bar & Tabs
+
+| Shortcut           | Action          |
+| ------------------ | --------------- |
+| `Super + B`        | Toggle bar      |
+| `Super + Ctrl + W` | Toggle tab mode |
+
+## System
+
+| Shortcut            | Action      |
+| ------------------- | ----------- |
+| `Super + Shift + R` | Restart DWM |
+| `Super + Ctrl + Q`  | Kill DWM    |
+
+## Media Keys
+
+| Shortcut                | Action             |
+| ----------------------- | ------------------ |
+| `XF86AudioRaiseVolume`  | Volume up +5%      |
+| `XF86AudioLowerVolume`  | Volume down -5%    |
+| `XF86AudioMute`         | Toggle mute        |
+| `XF86MonBrightnessUp`   | Brightness up +5   |
+| `XF86MonBrightnessDown` | Brightness down -5 |
+
+## Mouse Bindings
+
+<Aside type="note">These apply when the mouse is over a client window.</Aside>
+
+| Combo                      | Action                         |
+| -------------------------- | ------------------------------ |
+| `Super + Left click drag`  | Move or place window           |
+| `Super + Right click drag` | Resize window                  |
+| `Super + Middle click`     | Toggle floating                |
+| `Ctrl + Left click drag`   | Drag master area size (mfact)  |
+| `Ctrl + Right click drag`  | Drag client size ratio (cfact) |

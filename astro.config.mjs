@@ -58,6 +58,7 @@ export default defineConfig({
             { label: "HyprLand", slug: "keyboard-shortcuts/hyprland-keybinds" },
             { label: "OpenBox", slug: "keyboard-shortcuts/openbox-keybinds" },
             { label: "i3wm", slug: "keyboard-shortcuts/i3wm-keybinds" },
+            { label: "DWM", slug: "keyboard-shortcuts/dwm-keybinds" },
             { label: "tmux", slug: "keyboard-shortcuts/tmux-keybinds" },
           ],
         },
